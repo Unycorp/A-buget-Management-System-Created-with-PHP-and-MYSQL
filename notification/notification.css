@@ -1,0 +1,9 @@
+.jq-icon-info { background-color: #11cdef; color: #ffffff; border: none; }
+
+.jq-icon-warning { background-color: #fb6340; color: #ffffff; }
+
+.jq-icon-error { background-color: #f5365c; color: #ffffff; }
+
+.jq-icon-success { color: #ffffff; background-color: #2dce89; }
+
+.jq-toast-single, .jq-toast-single h2 { font-family: 'Nunito Sans', sans-serif; }

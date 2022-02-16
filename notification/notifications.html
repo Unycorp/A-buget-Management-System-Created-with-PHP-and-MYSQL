@@ -1,0 +1,40 @@
+<!doctype html>
+    <head>
+
+        <link rel="stylesheet" href="jquery-toast-plugin/dist/jquery.toast.min.css">
+        <!-- Color of the notification -->
+        <link rel="stylesheet" href="notification.css">
+
+    </head>
+
+    <body>
+    
+        <script src="vendor/jquery-3.3.1.min.js"></script>
+
+        <script src="jquery-toast-plugin/dist/jquery.toast.min.js"></script>
+
+        <script type="text/javascript">
+//position: bottom-left, bottom-right, bottom-center, top-let, top-right, top-center, mid-center, custom
+
+
+// success, info, error, warning
+   speakToast("i love you. You are the best thing that has happen to me Benedicta");
+
+function speakToast(message){
+
+    $.toast({
+      heading: 'The heading goes in here',
+      text: message,
+      showHideTransition: 'slide',
+      icon: 'success',
+      loaderBg: '#f96868',
+      position: {
+        right: 70,
+        top: 10
+      }
+    });
+}
+
+        </script>
+    </body>
+</html>
